@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(55, 57, 61, 0.79);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  color: #ffffffbf;
+  margin-right: 50px;
+}
+
+.menu-left li{
+  color: #ffffffbf;
+  float: left;
+}
+
+.menu-right li{
+  color: #ffffffbf;
+  float: right;
+}
+
+.top-wrapper {
+  background-color: #f9fbfe;
+  background-image: url(https://cocoandcreme.com/wp-content/uploads/2019/07/1.jpg);
+  background-size: cover;
+  color: white;
+  text-align: left;
+  padding: 180px 100px;
+  margin-bottom: 30px;
+}
+
+.top-wrapper > .container{
+  display: block;
+  opacity: 0.7;
+  letter-spacing: 5px;
+  line-height: normal;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  color: #1e272e;
+}
+
+.clear {
+  clear: left;
+}
+.cloth-image img:hover {
+  opacity: 2;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,2);}
+}
+
+.collections {
+  margin-bottom: 20px;
+}
+
+.collection {
+  text-align: center;
+  color: #919191;
+}
+
+.cloth {
+  float: left;
+  /* margin: 15px 45px; */
+  background-color: #f4f4f4;
+}
+
+.cloth-image img {
+  width: 300px;
+}
+
+.more_content {
+  padding: 30px 0;
+  
+}
+
+.heading {
+  padding: 10px;
+  color: #5f5d60;
+  text-align: center;
+}
+
+.heading-title {
+  border-bottom: 2px solid #dee7ec;
+  letter-spacing: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.kategori {
+	display: flex;
+  text-align: center;
+  
+}
+
+.kategori img {
+	width: 95%;
+}
+
+.content {
+  flex: auto;
+  width: 25%;
+  position: relative;
+}
+
+.content img {
+	background-color: rgb(255, 255, 255);
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 10px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+
+.message {
+  padding: 15px 40px;
+  background-color: #4ccfc9;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  opacity : 3;
+  color:grey;
+}
+
+input {
+	background: none;
+	border: none;
+}
+.container input {
+	border-bottom: 1px solid #000;
+	width: 50%;
+	display: block;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+}
+
+.container li:hover {
+  opacity : 3;
+  color:brown;
+
+}
+
+.social-media{
+  text-align: left;
+  padding-left:50px;
+  font-size:14px;
+  color:grey;
+  font-weight:bold;
+
+}
+
+
+.end p{
+  text-align:right;
+  padding-right:20px;
+  color:grey;
+ 
+}
+
+
+.instagram:hover{
+  opacity:2;
+}
+
+
+@media (max-width:768px){
+.top-wrapper {
+  padding: 180px 50px;
+}
+.cloth-image img {
+  width: 150px;
+  }
+  
+  
+}
+@media (max-width:1000px){
+  .heading-title{
+    text-align: center;
+    font-size:18px;
+    width: 100%;
+  }
+  .message-wrapper h3{
+    font-size:18px;
+    width: 100%;
+  }
+
+}
